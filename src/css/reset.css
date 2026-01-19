@@ -32,3 +32,19 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+textarea {
+  all: unset; /* прибирає всі стандартні стилі */
+  box-sizing: border-box; /* робить розміри передбачуваними */
+  
+  /* базові стилі для зручності */
+  width: 100%;
+  height: 100%;
+  font-family: inherit; /* успадковує шрифт батьків */
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  background: none;
+  resize: none; /* вимикає зміну розміру вручну (опційно) */
+}
+
